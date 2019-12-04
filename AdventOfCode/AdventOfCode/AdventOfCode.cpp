@@ -6,10 +6,12 @@
 
 int main()
 {
-	int result = DayOne::calculateMass("dfbsjhdbfhdbf");
+	int resultD1_1 = DayOne::calculateMass("D:/Projects/AdventOfCode2019/AdventOfCode/AdventOfCode/inputs/day01.txt");
+	//int resultD1_2 = DayOne::calculateFuelToFuel(resultD1_1);
 
 
-    std::cout << "Hello World!\n";
+    std::cout << "DAY ONE SOLUTION IS: " << resultD1_1 << "\n";
+	//std::cout << "DAY ONE PART TWO SOLUTION IS: " << resultD1_1 + resultD1_2  << "\n";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
