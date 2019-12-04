@@ -8,7 +8,7 @@
 #include <vector>
 #include <fstream>
 
-namespace DayOne 
+namespace Advent 
 {
 	int calculateMass(std::string path);
 

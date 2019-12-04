@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-int DayOne::calculateMass(std::string path)
+int Advent::calculateMass(std::string path)
 {
 	std::vector<int> input = readInput(path);
 
@@ -19,7 +19,7 @@ int DayOne::calculateMass(std::string path)
 	return massSum + massFuel;
 }
 
-int DayOne::calculateFuelToFuel(int fuel)
+int Advent::calculateFuelToFuel(int fuel)
 {
 	int mass;
 	mass = (fuel / 3) - 2;
@@ -33,7 +33,7 @@ int DayOne::calculateFuelToFuel(int fuel)
 	}
 }
 
-std::vector<int> DayOne::readInput(std::string path)
+std::vector<int> Advent::readInput(std::string path)
 {
 	std::vector<int> input;
 	std::ifstream infile(path);

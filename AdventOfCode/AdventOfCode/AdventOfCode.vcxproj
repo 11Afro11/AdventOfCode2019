@@ -153,9 +153,11 @@
   <ItemGroup>
     <ClCompile Include="AdventOfCode.cpp" />
     <ClCompile Include="source\day01.cpp" />
+    <ClCompile Include="source\day02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\day01.h" />
+    <ClInclude Include="header\day02.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AdventOfCode.rc" />
